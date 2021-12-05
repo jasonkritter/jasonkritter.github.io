@@ -1,5 +1,4 @@
-{
-  "schools": [
+[
     {
         "fullName": "New Mexico Institute of Mining and Technology",
         "major": "Technical Communication",
@@ -14,5 +13,4 @@
         "type": "Master of Science",
         "yearConferred": "2022"
     }
-  ]
-}
+ ]
