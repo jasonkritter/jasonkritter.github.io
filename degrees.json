@@ -6,6 +6,7 @@
     "type": "Bachelor of Science",
     "yearConferred": "2016",
     "logoUrl": "https://www.cs.nmt.edu/~acm/icpc/nmt.gif"
+    "programUrl": "https://www.nmt.edu/academics/class/undergrad.php"
   },
   {
     "collegeName": "Boston University Metropolitan College",
@@ -13,6 +14,7 @@
     "concentration": "Web Application Development",
     "type": "Master of Science",
     "yearConferred": "2022",
-    "logoUrl": "https://www.bu.edu/cdn/images/logos/masterplate112x50.png"
+    "logoUrl": "https://www.bu.edu/cdn/images/logos/masterplate112x50.png",
+    "programUrl": "https://www.bu.edu/met/degrees-certificates/ms-computer-information-systems-web-application-development/"
   }
 ]
