@@ -1,18 +1,18 @@
 [
-    {
-        "collegeName": "New Mexico Institute of Mining and Technology",
-        "major": "Technical Communication",
-        "concentration": "Computer Science",
-        "type": "Bachelor of Science",
-        "yearConferred": "2016",
-        "logoUrl": "https://www.nmt.edu/_resources/img/logo-svg/Logo320x180.png"
-    },
-    {
-        "collegeName": "Boston University Metropolitan College",
-        "major": "Computer Information Systems",
-        "concentration": "Web Application Development",
-        "type": "Master of Science",
-        "yearConferred": "2022",
-        "logoUrl": "https://www.bu.edu/cdn/images/logos/masterplate112x50.png"
-    }
- ]
+  {
+    "collegeName": "New Mexico Institute of Mining and Technology",
+    "major": "Technical Communication",
+    "concentration": "Computer Science",
+    "type": "Bachelor of Science",
+    "yearConferred": "2016",
+    "logoUrl": "https://www.nmt.edu/_resources/img/logo-svg/Logo320x180.png"
+  },
+  {
+    "collegeName": "Boston University Metropolitan College",
+    "major": "Computer Information Systems",
+    "concentration": "Web Application Development",
+    "type": "Master of Science",
+    "yearConferred": "2022",
+    "logoUrl": "https://www.bu.edu/cdn/images/logos/masterplate112x50.png"
+  }
+]
