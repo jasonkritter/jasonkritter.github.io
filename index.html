@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Form</title>
+    <title>JSON</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -11,108 +11,14 @@
     <div class="navigation">
       <div class="navigation-wrapper">
         <header>
-          <a href="index.html">Form</a>
+          <a href="index.html">JSON Degrees</a>
         </header>
       </div>
     </div>
     <main>
-      <p>
-        Please complete the fields below. All fields are required unless marked
-        (optional).
-      </p>
-      <form
-        name="hw4Form"
-        action="https://bucs601.com/submit.php"
-        onsubmit="return validateForm()"
-        method="POST"
-      >
-        <section>
-          <h3>What is your name?</h3>
-          <div class="row">
-            <div id="firstNameWrapper" class="field-wrapper">
-              <label for="firstName">First name</label>
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                placeholder="Enter first name"
-              />
-              <p id="firstNameError" class="error-text"></p>
-            </div>
-            <div class="field-wrapper">
-              <label for="lastName">Last name</label>
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                placeholder="Enter last name"
-              />
-              <p id="lastNameError" class="error-text"></p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h3>What is your facilitator's first name?</h3>
-          <div class="field-wrapper">
-            <label for="facilitator">Facilitator first name</label>
-            <input
-              type="text"
-              id="facilitator"
-              name="facilitator"
-              placeholder="Enter facilitator first name"
-            />
-            <p id="facilitatorError" class="error-text"></p>
-          </div>
-        </section>
-        <section>
-          <h3>Do you live in the United States?</h3>
-          <label class="radio-button">
-            <input type="radio" name="livesInUs" value="true" />
-            <span>Yes</span>
-          </label>
-          <label class="radio-button">
-            <input type="radio" name="livesInUs" value="false" />
-            <span>No</span>
-          </label>
-          <p id="livesInUsError" class="error-text"></p>
-        </section>
-        <section>
-          <h3>What foods do you like? <small>(optional)</small></h3>
-          <label class="check-wrapper"
-            >Burgers
-            <input type="checkbox" name="favFoods1" value="Burgers" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-wrapper"
-            >Donuts
-            <input type="checkbox" name="favFoods2" value="Donuts" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-wrapper"
-            >Fries
-            <input type="checkbox" name="favFoods3" value="Fries" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-wrapper"
-            >Hot Dogs
-            <input type="checkbox" name="favFoods4" value="Hot Dogs" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-wrapper"
-            >Pizza
-            <input type="checkbox" name="favFoods5" value="Pizza" />
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-wrapper"
-            >Sushi
-            <input type="checkbox" name="favFoods6" value="Sushi" />
-            <span class="checkmark"></span>
-          </label>
-          <p id="favFoodsError" class="error-text"></p>
-        </section>
-        <input type="submit" value="Submit" />
-      </form>
+      <button id="get-degrees">Get Degrees</button>
+      <div id="degree-cards" class="cards"></div>
     </main>
-    <script src="js/hw4-min.js"></script>
+    <script src="js/hw5-min.js"></script>
   </body>
 </html>

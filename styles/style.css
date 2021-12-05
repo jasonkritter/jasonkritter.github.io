@@ -8,6 +8,78 @@ body {
   background: #eaeaea;
 }
 
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #f18701;
+  color: #30292f;
+  border: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+button:hover {
+  background: rgba(241, 135, 1, 0.9);
+}
+
+#addition-button {
+  display: none;
+}
+
+a.card {
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(48, 41, 47, 0.12), 0 1px 2px rgba(48, 41, 47, 0.24);
+  text-decoration: none;
+  color: #30292f;
+  margin-bottom: 1rem;
+}
+a.card:hover {
+  background: rgba(48, 41, 47, 0.05);
+  box-shadow: 0 14px 28px rgba(48, 41, 47, 0.25), 0 10px 10px rgba(48, 41, 47, 0.22);
+}
+a.card .card-image {
+  width: 8rem;
+  background: rgba(48, 41, 47, 0.05);
+  display: block;
+  padding: 1rem;
+}
+a.card .card-image img {
+  width: 100%;
+}
+a.card .card-text {
+  width: calc(100% - 5rem);
+  padding: 1rem 1.5rem;
+}
+a.card .card-text h3 {
+  margin: 0;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+a.card .card-text p {
+  padding: 0;
+  line-height: 1.2rem;
+  font-size: 0.95rem;
+}
+a.card .card-text ul {
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  a.card .card-text h3 {
+    font-size: 1rem;
+  }
+  a.card .card-text p {
+    font-size: 0.85rem;
+  }
+}
 main {
   max-width: 1024px;
   margin: 0 auto;
