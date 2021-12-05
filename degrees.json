@@ -5,7 +5,7 @@
     "concentration": "Computer Science",
     "type": "Bachelor of Science",
     "yearConferred": "2016",
-    "logoUrl": "https://www.cs.nmt.edu/~acm/icpc/nmt.gif"
+    "logoUrl": "https://www.cs.nmt.edu/~acm/icpc/nmt.gif",
     "programUrl": "https://www.nmt.edu/academics/class/undergrad.php"
   },
   {
@@ -18,3 +18,4 @@
     "programUrl": "https://www.bu.edu/met/degrees-certificates/ms-computer-information-systems-web-application-development/"
   }
 ]
+
